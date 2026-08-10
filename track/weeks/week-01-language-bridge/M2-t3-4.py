@@ -1,0 +1,7 @@
+name = input()
+week = input()
+status = input()
+course_details = str(name), str(week), str(status)
+updated_week = input()
+course_details = (name, updated_week, status)
+print(course_details)
